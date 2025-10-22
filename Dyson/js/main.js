@@ -623,6 +623,7 @@ const closeBurger = () => {
   });
 };
 
+// Закрыть модалку при нажатии на ссылку
 burgerModal.addEventListener("click", (e) => {
   if (e.currentTarget.contains(navList)) {
     toggleBurger(false);
@@ -895,6 +896,7 @@ const swiperGallery = new Swiper(".equipment__slider", {
     },
   },
 });
+
 
 
 
