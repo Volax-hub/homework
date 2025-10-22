@@ -188,7 +188,6 @@ if (parsed.length !== defaultProducts.length) {
 const span = document.createElement("span");
 span.textContent = ` ${products.length}`;
 document.querySelector(".special__title").append(span);
-console.log(document.querySelector(".special__title"));
 
 let currentPage = 1; // Активная страница
 const itemsPerPageDesktop = 6; // Элементов на странице
@@ -888,3 +887,4 @@ const swiperGallery = new Swiper(".equipment__slider", {
     },
   },
 });
+
