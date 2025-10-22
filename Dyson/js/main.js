@@ -588,10 +588,9 @@ const renderNavBurger = () => {
     burger.appendChild(navList);
   } else {
     headerLeft.appendChild(navList);
+    navList.style.visibility = "visible";
   }
 };
-
-renderNavBurger();
 
 const toggleBurger = (isActive) => {
   document.body.style.overflow = isActive ? "hidden" : "auto";
@@ -627,12 +626,14 @@ const closeBurger = () => {
 burgerModal.addEventListener("click", (e) => {
   if (e.currentTarget.contains(navList)) {
     toggleBurger(false);
+    navList.style.visibility = "hidden";
     renderNavBurger();
   }
 });
 
 openBurger();
 closeBurger();
+renderNavBurger();
 
 mediaQueryNav.addEventListener("change", () => {
   renderNavBurger();
@@ -896,6 +897,7 @@ const swiperGallery = new Swiper(".equipment__slider", {
     },
   },
 });
+
 
 
 
