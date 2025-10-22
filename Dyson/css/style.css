@@ -1311,4 +1311,10 @@
   .accordion-content__text {
     padding-right: 0;
   }
+
+  .modal__cart-clear {
+    left: auto;
+    right: clamp(170px, 66.2vw, 300px);
+  }
 }
+
