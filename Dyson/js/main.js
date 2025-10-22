@@ -888,3 +888,4 @@ const swiperGallery = new Swiper(".equipment__slider", {
   },
 });
 
+
