@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'NAMU 1850';
+    src: local('NAMU 1850'), local('NAMU-1850'),
+        url('./../fonts/NAMU-1850.woff2') format('woff2'),
+        url('./../fonts/NAMU-1850.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NAMU Pro';
+    src: local('NAMU Pro'), local('NAMU-Pro'),
+        url('./../fonts/NAMU-Pro.woff2') format('woff2'),
+        url('./../fonts/NAMU-Pro.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'),
+    url('./../fonts/OpenSansCondensed-Light.woff2') format('woff2'),
+    url('./../fonts/OpenSansCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: local('Open Sans Condensed Regular'), local('OpenSansCondensed-Regular'),
+    url('./../fonts/OpenSansCondensed-Regular.woff2') format('woff2'),
+    url('./../fonts/OpenSansCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: local('Open Sans Condensed SemiBold'), local('OpenSansCondensed-SemiBold'),
+    url('./../fonts/OpenSansCondensed-SemiBold.woff2') format('woff2'),
+    url('./../fonts/OpenSansCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans SemiCondensed';
+    src: local('Open Sans SemiCondensed Bold'), local('OpenSansSemiCondensed-Bold'),
+        url('./../fonts/OpenSansSemiCondensed-Bold.woff2') format('woff2'),
+        url('./../fonts/OpenSansSemiCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

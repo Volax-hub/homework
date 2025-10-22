@@ -1,0 +1,116 @@
+.header {
+  background: var(--general-text);
+  color: var(--accent-text);
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.header__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 19px 0;
+}
+
+.header__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.burger-icon:hover path {
+  stroke: var(--accent-color-1);
+}
+.header__logo {
+  width: 123px;
+}
+.header__logo > img {
+  width: 100%;
+}
+
+.nav__list {
+  font-family: "NAMU Pro";
+  font-weight: 900;
+  font-size: 16px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.nav__link {
+  padding: 5px 0;
+}
+
+.nav__link:hover {
+  color: var(--accent-color-1);
+}
+
+.header__end {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  align-items: center;
+  padding-top: 4px;
+}
+.header__end-number {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.header__end-number:hover {
+  color: var(--accent-color-1);
+}
+
+.header__end-box {
+  display: flex;
+  gap: 20px;
+}
+
+.header__end-cart {
+  position: relative;
+}
+
+.header__end-cart:hover path {
+  stroke: var(--accent-color-1);
+}
+
+.header__end-cart:hover .header__end-cart--quantity {
+  background-color: var(--accent-color-1);
+}
+
+.header__end-cart:hover .header__end-cart--quantity span {
+  color: var(--accent-text);
+}
+
+.header__end-cart--quantity {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  background-color: var(--accent-text);
+  border-radius: 20px;
+  bottom: 5px;
+  right: -19px;
+}
+
+.header__end-cart--quantity > span {
+  position: absolute;
+  left: 6px;
+  top: 3px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  color: #000;
+  bottom: 5px;
+}
