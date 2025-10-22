@@ -578,6 +578,7 @@ const openBurgerBtn = document.querySelector(".js--burger-btn");
 const closeBurgerElements = document.querySelectorAll(".js--close-burger");
 
 const navList = document.querySelector(".nav__list");
+const burgerModal = document.querySelector(".modal__burger");
 const headerLeft = document.querySelector(".header__left");
 
 const mediaQueryNav = window.matchMedia("(max-width: 1400px)");
@@ -621,6 +622,13 @@ const closeBurger = () => {
     });
   });
 };
+
+burgerModal.addEventListener("click", (e) => {
+  if (e.currentTarget.contains(navList)) {
+    toggleBurger(false);
+    renderNavBurger();
+  }
+});
 
 openBurger();
 closeBurger();
@@ -887,5 +895,6 @@ const swiperGallery = new Swiper(".equipment__slider", {
     },
   },
 });
+
 
 
